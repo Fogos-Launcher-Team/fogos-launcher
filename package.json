@@ -2,7 +2,10 @@
   "name": "fogos-launcher",
   "version": "1.0.0",
   "description": "Fogos Launcher",
-  "author": "Fogos Launcher Team",
+  "author": {
+    "name": "Fogos Launcher Team",
+    "email": "indirect.cattle.lpdi@mask.me"
+  },
   "license": "UNLICENSED",
   "main": "main.js",
   "scripts": {
@@ -87,6 +90,7 @@
     "linux": {
       "icon": "build/icons",
       "category": "Game",
+      "maintainer": "Fogos Launcher Team <indirect.cattle.lpdi@mask.me>",
       "target": [
         "AppImage",
         "deb"
